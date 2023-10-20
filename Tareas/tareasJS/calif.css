@@ -1,0 +1,29 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    margin: 10%;
+    padding: 20px;
+    background: aqua;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+label{
+    display: inline;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: rgba(250, 253, 255, 0.892);
+}
+
+#resultado{
+    text-align: center;
+    color: blue;
+    
+}

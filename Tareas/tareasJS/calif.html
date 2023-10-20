@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calif.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Notas de clase</h1>
+        <div class="container">
+        <form>
+            <label for="">Ingrese la nota parcial 1</label>
+            <input type="Number" id="1p" required/>
+            <div id="mp1"></div>
+            <label for="">Ingrese la nota parcial 2</label>
+            <input type="Number" id="2p" required/>
+            <label for="">Ingrese la nota parcial 3</label>
+            <input type="Number" id="3p" required/>
+            <label for="">Ingrese la nota examen final</label>
+            <input type="Number" id="f1" required/>
+            <label for="">Ingrese la nota trabajo final</label>
+            <input type="Number" id="t1" required/>
+            <button type="button" onclick="calcularNota()">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+        </div>
+    </main>
+    <script src="calif.js"></script>
+</body>
+</html>
